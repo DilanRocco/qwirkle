@@ -1,0 +1,10 @@
+pip3.9 install -r ../Other/requirements.txt
+Defaulting to user installation because normal site-packages is not writeable
+Processing /course/cs4500f23/ta/tedium-workdir/github/quirky-armadillos
+Requirement already satisfied: jsonstream in /course/cs4500f23/ta/.local/lib/python3.9/site-packages (from -r ../Other/requirements.txt (line 1)) (0.0.1)
+Requirement already satisfied: Pillow in /course/cs4500f23/ta/.local/lib/python3.9/site-packages (from -r ../Other/requirements.txt (line 2)) (9.0.1)
+Using legacy 'setup.py install' for proj-directory, since package 'wheel' is not installed.
+Installing collected packages: proj-directory
+    Running setup.py install for proj-directory: started
+    Running setup.py install for proj-directory: finished with status 'done'
+Successfully installed proj-directory-0.0.1

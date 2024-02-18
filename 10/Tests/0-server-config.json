@@ -1,0 +1,178 @@
+{
+    "port": 25326,
+    "quiet": false,
+    "ref-spec": {
+        "config-s": {
+            "fbo": 4,
+            "qbo": 8
+        },
+        "observe": false,
+        "per-turn": 6,
+        "quiet": false,
+        "state0": {
+            "map": [
+                [
+                    0,
+                    [
+                        0,
+                        {
+                            "color": "blue",
+                            "shape": "circle"
+                        }
+                    ]
+                ]
+            ],
+            "players": [
+                {
+                    "name": "A",
+                    "score": 0,
+                    "tile*": [
+                        {
+                            "color": "yellow",
+                            "shape": "square"
+                        },
+                        {
+                            "color": "red",
+                            "shape": "square"
+                        },
+                        {
+                            "color": "green",
+                            "shape": "8star"
+                        },
+                        {
+                            "color": "red",
+                            "shape": "diamond"
+                        },
+                        {
+                            "color": "blue",
+                            "shape": "clover"
+                        },
+                        {
+                            "color": "purple",
+                            "shape": "8star"
+                        }
+                    ]
+                },
+                {
+                    "name": "B",
+                    "score": 0,
+                    "tile*": [
+                        {
+                            "color": "red",
+                            "shape": "circle"
+                        },
+                        {
+                            "color": "orange",
+                            "shape": "clover"
+                        },
+                        {
+                            "color": "purple",
+                            "shape": "diamond"
+                        },
+                        {
+                            "color": "purple",
+                            "shape": "square"
+                        },
+                        {
+                            "color": "purple",
+                            "shape": "circle"
+                        },
+                        {
+                            "color": "red",
+                            "shape": "star"
+                        }
+                    ]
+                },
+                {
+                    "name": "C",
+                    "score": 0,
+                    "tile*": [
+                        {
+                            "color": "red",
+                            "shape": "star"
+                        },
+                        {
+                            "color": "red",
+                            "shape": "8star"
+                        },
+                        {
+                            "color": "green",
+                            "shape": "diamond"
+                        },
+                        {
+                            "color": "green",
+                            "shape": "clover"
+                        },
+                        {
+                            "color": "orange",
+                            "shape": "star"
+                        },
+                        {
+                            "color": "green",
+                            "shape": "circle"
+                        }
+                    ]
+                },
+                {
+                    "name": "D",
+                    "score": 0,
+                    "tile*": [
+                        {
+                            "color": "yellow",
+                            "shape": "star"
+                        },
+                        {
+                            "color": "red",
+                            "shape": "8star"
+                        },
+                        {
+                            "color": "green",
+                            "shape": "clover"
+                        },
+                        {
+                            "color": "blue",
+                            "shape": "8star"
+                        },
+                        {
+                            "color": "green",
+                            "shape": "clover"
+                        },
+                        {
+                            "color": "yellow",
+                            "shape": "square"
+                        }
+                    ]
+                }
+            ],
+            "tile*": [
+                {
+                    "color": "green",
+                    "shape": "8star"
+                },
+                {
+                    "color": "green",
+                    "shape": "clover"
+                },
+                {
+                    "color": "yellow",
+                    "shape": "diamond"
+                },
+                {
+                    "color": "green",
+                    "shape": "8star"
+                },
+                {
+                    "color": "blue",
+                    "shape": "circle"
+                },
+                {
+                    "color": "green",
+                    "shape": "star"
+                }
+            ]
+        }
+    },
+    "server-tries": 2,
+    "server-wait": 20,
+    "wait-for-signup": 3
+}

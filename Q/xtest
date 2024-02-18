@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# testing source.py
+python3.9 Tests/test.py
+python3.9 Tests/test_points.py
+python3.9 Tests/test_player_strategy.py

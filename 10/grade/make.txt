@@ -1,0 +1,23 @@
+pip3.9 install -r ../Other/requirements.txt
+Defaulting to user installation because normal site-packages is not writeable
+Processing /course/cs4500f23/ta/tedium-workdir/github/quirky-armadillos
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: jsonstream in /course/cs4500f23/ta/.local/lib/python3.9/site-packages (from -r ../Other/requirements.txt (line 1)) (0.0.1)
+Requirement already satisfied: Pillow in /course/cs4500f23/ta/.local/lib/python3.9/site-packages (from -r ../Other/requirements.txt (line 2)) (9.0.1)
+Building wheels for collected packages: proj-directory
+  Building wheel for proj-directory (pyproject.toml): started
+  Building wheel for proj-directory (pyproject.toml): finished with status 'done'
+  Created wheel for proj-directory: filename=proj_directory-0.0.1-py3-none-any.whl size=51418 sha256=44fb35374aa92b030fa828d67f38a699ed0b1cbfcd7770fac44db62ee3f6b367
+  Stored in directory: /course/cs4500f23/ta/.cache/pip/wheels/7d/2d/07/0d72ceeb1dd364c1addc87cd4973f24873c0adb9d9807416c1
+Successfully built proj-directory
+Installing collected packages: proj-directory
+  Attempting uninstall: proj-directory
+    Found existing installation: proj-directory 0.0.1
+    Uninstalling proj-directory-0.0.1:
+      Successfully uninstalled proj-directory-0.0.1
+Successfully installed proj-directory-0.0.1

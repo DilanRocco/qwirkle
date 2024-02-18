@@ -1,0 +1,22 @@
+# Mac files
+.DS_Store
+
+# IDE files
+.vscode
+.idea/
+
+# Build
+venv/
+build/
+*.egg-info
+
+# python
+__pycache__/
+
+# Old TestFests
+7/
+6/
+5/
+4/
+3/
+tmp/*.png

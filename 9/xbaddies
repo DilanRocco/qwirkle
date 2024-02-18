@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# run the file run from command line
+SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+python3.9 "$SCRIPTPATH/../Q/Tests/run_xbaddies.py"

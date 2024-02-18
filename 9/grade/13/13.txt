@@ -1,0 +1,308 @@
+(testing /course/cs4500f23/ta/tedium-workdir/github/quirky-armadillos/9/xbaddies)
+(testing /course/cs4500f23/ta/tedium-workdir/testfest-results/9/13/Tests/0-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/13/Tests/0-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f23/ta/tedium-workdir/github/quirky-armadillos/9/../Q/Tests/run_xbaddies.py", line 6, in <module>
+    from Q.Referee.referee import Referee
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/referee.py", line 18, in <module>
+    from Q.Player.player import Player
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Player/player.py", line 4, in <module>
+    from Q.Common.game_state import GameState
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Common/game_state.py", line 17, in <module>
+    from Q.Referee.pair_results import Results
+ImportError: cannot import name 'Results' from 'Q.Referee.pair_results' (/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/pair_results.py)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((map . ((0 (0 #hasheq((color . "red") (shape . "circle"))))))
+          (players
+           .
+           (#hasheq((name . "Eve")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "blue") (shape . "star"))
+                      #hasheq((color . "green") (shape . "8star"))
+                      #hasheq((color . "red") (shape . "square"))
+                      #hasheq((color . "purple") (shape . "clover"))
+                      #hasheq((color . "yellow") (shape . "diamond")))))
+            #hasheq((name . "Adam")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "orange") (shape . "star"))
+                      #hasheq((color . "blue") (shape . "8star"))
+                      #hasheq((color . "orange") (shape . "square"))
+                      #hasheq((color . "red") (shape . "clover"))
+                      #hasheq((color . "yellow") (shape . "diamond")))))))
+          (tile*
+           .
+           (#hasheq((color . "blue") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "star"))
+            #hasheq((color . "green") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "diamond"))
+            #hasheq((color . "blue") (shape . "star"))
+            #hasheq((color . "red") (shape . "clover")))))
+  (("Eve" "dag" "setup" 1) ("Adam" "dag" "a cheat" "non-adjacent-coordinate")))
+(*** expected)
+'((() ("Eve" "Adam")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /course/cs4500f23/ta/tedium-workdir/testfest-results/9/13/Tests/2-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/13/Tests/2-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f23/ta/tedium-workdir/github/quirky-armadillos/9/../Q/Tests/run_xbaddies.py", line 6, in <module>
+    from Q.Referee.referee import Referee
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/referee.py", line 18, in <module>
+    from Q.Player.player import Player
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Player/player.py", line 4, in <module>
+    from Q.Common.game_state import GameState
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Common/game_state.py", line 17, in <module>
+    from Q.Referee.pair_results import Results
+ImportError: cannot import name 'Results' from 'Q.Referee.pair_results' (/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/pair_results.py)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((map . ((0 (0 #hasheq((color . "yellow") (shape . "star"))))))
+          (players
+           .
+           (#hasheq((name . "Meixia")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "green") (shape . "circle"))
+                      #hasheq((color . "blue") (shape . "8star"))
+                      #hasheq((color . "purple") (shape . "clover"))
+                      #hasheq((color . "purple") (shape . "clover"))
+                      #hasheq((color . "yellow") (shape . "diamond"))
+                      #hasheq((color . "red") (shape . "circle")))))
+            #hasheq((name . "Aiden")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "red") (shape . "star"))
+                      #hasheq((color . "green") (shape . "square"))
+                      #hasheq((color . "purple") (shape . "clover"))
+                      #hasheq((color . "purple") (shape . "clover"))
+                      #hasheq((color . "purple") (shape . "clover"))
+                      #hasheq((color . "purple") (shape . "clover")))))))
+          (tile*
+           .
+           (#hasheq((color . "purple") (shape . "clover"))
+            #hasheq((color . "green") (shape . "star"))
+            #hasheq((color . "purple") (shape . "clover"))
+            #hasheq((color . "purple") (shape . "clover"))
+            #hasheq((color . "orange") (shape . "diamond"))
+            #hasheq((color . "purple") (shape . "clover")))))
+  (("Meixia" "dag" "a cheat" "tile-not-owned") ("Aiden" "ldasg")))
+(*** expected)
+'((("Aiden") ("Meixia")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /course/cs4500f23/ta/tedium-workdir/testfest-results/9/13/Tests/4-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/13/Tests/4-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f23/ta/tedium-workdir/github/quirky-armadillos/9/../Q/Tests/run_xbaddies.py", line 6, in <module>
+    from Q.Referee.referee import Referee
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/referee.py", line 18, in <module>
+    from Q.Player.player import Player
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Player/player.py", line 4, in <module>
+    from Q.Common.game_state import GameState
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Common/game_state.py", line 17, in <module>
+    from Q.Referee.pair_results import Results
+ImportError: cannot import name 'Results' from 'Q.Referee.pair_results' (/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/pair_results.py)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((map . ((0 (0 #hasheq((color . "yellow") (shape . "star"))))))
+          (players
+           .
+           (#hasheq((name . "Tom")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "red") (shape . "star"))
+                      #hasheq((color . "red") (shape . "star"))
+                      #hasheq((color . "purple") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "circle")))))
+            #hasheq((name . "Jerry")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "yellow") (shape . "8star"))
+                      #hasheq((color . "yellow") (shape . "8star"))
+                      #hasheq((color . "purple") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "circle")))))
+            #hasheq((name . "Carol")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "purple") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "circle")))))))
+          (tile*
+           .
+           (#hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "circle")))))
+  (("Tom" "ldasg" "take-turn" 2) ("Jerry" "dag") ("Carol" "ldasg")))
+(*** expected)
+'((("Jerry") ("Tom")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /course/cs4500f23/ta/tedium-workdir/testfest-results/9/13/Tests/6-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/13/Tests/6-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f23/ta/tedium-workdir/github/quirky-armadillos/9/../Q/Tests/run_xbaddies.py", line 6, in <module>
+    from Q.Referee.referee import Referee
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/referee.py", line 18, in <module>
+    from Q.Player.player import Player
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Player/player.py", line 4, in <module>
+    from Q.Common.game_state import GameState
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Common/game_state.py", line 17, in <module>
+    from Q.Referee.pair_results import Results
+ImportError: cannot import name 'Results' from 'Q.Referee.pair_results' (/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/pair_results.py)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((map . ((0 (0 #hasheq((color . "yellow") (shape . "star"))))))
+          (players
+           .
+           (#hasheq((name . "Tom")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "red") (shape . "star"))
+                      #hasheq((color . "red") (shape . "star"))
+                      #hasheq((color . "purple") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "circle")))))
+            #hasheq((name . "Jerry")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "yellow") (shape . "8star"))
+                      #hasheq((color . "yellow") (shape . "8star"))
+                      #hasheq((color . "purple") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "circle")))))
+            #hasheq((name . "Carol")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "yellow") (shape . "diamond"))
+                      #hasheq((color . "purple") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "circle")))))))
+          (tile*
+           .
+           (#hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "circle")))))
+  (("Tom" "dag" "a cheat" "non-adjacent-coordinate")
+   ("Jerry" "dag" "win" 1)
+   ("Carol" "dag" "new-tiles")))
+(*** expected)
+'((() ("Tom" "Carol" "Jerry")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /course/cs4500f23/ta/tedium-workdir/testfest-results/9/13/Tests/7-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/13/Tests/7-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f23/ta/tedium-workdir/github/quirky-armadillos/9/../Q/Tests/run_xbaddies.py", line 6, in <module>
+    from Q.Referee.referee import Referee
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/referee.py", line 18, in <module>
+    from Q.Player.player import Player
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Player/player.py", line 4, in <module>
+    from Q.Common.game_state import GameState
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Common/game_state.py", line 17, in <module>
+    from Q.Referee.pair_results import Results
+ImportError: cannot import name 'Results' from 'Q.Referee.pair_results' (/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/pair_results.py)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((map . ((0 (0 #hasheq((color . "purple") (shape . "diamond"))))))
+          (players
+           .
+           (#hasheq((name . "Matthias1")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "blue") (shape . "diamond"))
+                      #hasheq((color . "green") (shape . "diamond"))
+                      #hasheq((color . "blue") (shape . "diamond"))
+                      #hasheq((color . "blue") (shape . "diamond"))
+                      #hasheq((color . "green") (shape . "diamond"))
+                      #hasheq((color . "green") (shape . "diamond")))))
+            #hasheq((name . "Matthias2")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "orange") (shape . "8star"))
+                      #hasheq((color . "orange") (shape . "8star"))
+                      #hasheq((color . "orange") (shape . "8star"))
+                      #hasheq((color . "orange") (shape . "8star"))
+                      #hasheq((color . "orange") (shape . "8star"))
+                      #hasheq((color . "orange") (shape . "8star")))))
+            #hasheq((name . "Matthias3")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "orange") (shape . "8star"))
+                      #hasheq((color . "orange") (shape . "8star"))
+                      #hasheq((color . "orange") (shape . "8star"))
+                      #hasheq((color . "orange") (shape . "8star"))
+                      #hasheq((color . "orange") (shape . "8star"))
+                      #hasheq((color . "orange") (shape . "8star")))))
+            #hasheq((name . "Matthias4")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "orange") (shape . "8star"))
+                      #hasheq((color . "orange") (shape . "8star"))
+                      #hasheq((color . "orange") (shape . "8star"))
+                      #hasheq((color . "orange") (shape . "8star"))
+                      #hasheq((color . "orange") (shape . "8star"))
+                      #hasheq((color . "orange") (shape . "8star")))))))
+          (tile*
+           .
+           (#hasheq((color . "orange") (shape . "8star"))
+            #hasheq((color . "orange") (shape . "8star"))
+            #hasheq((color . "orange") (shape . "8star"))
+            #hasheq((color . "orange") (shape . "8star"))
+            #hasheq((color . "orange") (shape . "8star"))
+            #hasheq((color . "orange") (shape . "8star")))))
+  (("Matthias1" "dag")
+   ("Matthias2" "ldasg" "setup")
+   ("Matthias3" "ldasg" "new-tiles" 1)
+   ("Matthias4" "ldasg" "a cheat" "bad-ask-for-tiles")))
+(*** expected)
+'((("Matthias1") ("Matthias2")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 5) (partial-score 0))
+

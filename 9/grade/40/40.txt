@@ -1,0 +1,1467 @@
+(testing /course/cs4500f23/ta/tedium-workdir/github/quirky-armadillos/9/xbaddies)
+(testing /course/cs4500f23/ta/tedium-workdir/testfest-results/9/40/Tests/0-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/40/Tests/0-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f23/ta/tedium-workdir/github/quirky-armadillos/9/../Q/Tests/run_xbaddies.py", line 6, in <module>
+    from Q.Referee.referee import Referee
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/referee.py", line 18, in <module>
+    from Q.Player.player import Player
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Player/player.py", line 4, in <module>
+    from Q.Common.game_state import GameState
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Common/game_state.py", line 17, in <module>
+    from Q.Referee.pair_results import Results
+ImportError: cannot import name 'Results' from 'Q.Referee.pair_results' (/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/pair_results.py)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((map
+           .
+           ((-3
+             (-2 #hasheq((color . "red") (shape . "circle")))
+             (0 #hasheq((color . "red") (shape . "8star")))
+             (2 #hasheq((color . "red") (shape . "diamond")))
+             (-1 #hasheq((color . "red") (shape . "square")))
+             (1 #hasheq((color . "red") (shape . "star"))))
+            (1
+             (-2 #hasheq((color . "blue") (shape . "clover")))
+             (-1 #hasheq((color . "blue") (shape . "8star")))
+             (0 #hasheq((color . "yellow") (shape . "8star")))
+             (1 #hasheq((color . "orange") (shape . "8star")))
+             (2 #hasheq((color . "orange") (shape . "star"))))
+            (2 (1 #hasheq((color . "orange") (shape . "circle"))))
+            (0
+             (-2 #hasheq((color . "purple") (shape . "clover")))
+             (0 #hasheq((color . "green") (shape . "8star")))
+             (2 #hasheq((color . "orange") (shape . "square"))))
+            (-1
+             (-2 #hasheq((color . "purple") (shape . "circle")))
+             (2 #hasheq((color . "orange") (shape . "diamond"))))
+            (-2
+             (-2 #hasheq((color . "orange") (shape . "circle")))
+             (2 #hasheq((color . "red") (shape . "diamond"))))))
+          (players
+           .
+           (#hasheq((name . "A")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "red") (shape . "diamond"))
+                      #hasheq((color . "green") (shape . "circle"))
+                      #hasheq((color . "blue") (shape . "star"))
+                      #hasheq((color . "yellow") (shape . "clover"))
+                      #hasheq((color . "purple") (shape . "square"))
+                      #hasheq((color . "orange") (shape . "8star")))))
+            #hasheq((name . "B")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "blue") (shape . "square"))
+                      #hasheq((color . "green") (shape . "8star"))
+                      #hasheq((color . "red") (shape . "diamond"))
+                      #hasheq((color . "yellow") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "star"))
+                      #hasheq((color . "orange") (shape . "clover")))))
+            #hasheq((name . "C")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "purple") (shape . "diamond"))
+                      #hasheq((color . "orange") (shape . "star"))
+                      #hasheq((color . "red") (shape . "8star"))
+                      #hasheq((color . "blue") (shape . "circle"))
+                      #hasheq((color . "green") (shape . "clover"))
+                      #hasheq((color . "yellow") (shape . "square")))))
+            #hasheq((name . "D")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "yellow") (shape . "clover"))
+                      #hasheq((color . "green") (shape . "diamond"))
+                      #hasheq((color . "red") (shape . "star"))
+                      #hasheq((color . "blue") (shape . "8star"))
+                      #hasheq((color . "orange") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "square")))))))
+          (tile*
+           .
+           (#hasheq((color . "red") (shape . "8star"))
+            #hasheq((color . "orange") (shape . "star"))
+            #hasheq((color . "yellow") (shape . "square"))
+            #hasheq((color . "blue") (shape . "circle"))
+            #hasheq((color . "green") (shape . "diamond")))))
+  (("A" "dag") ("B" "dag") ("C" "dag") ("D" "dag")))
+(*** expected)
+'((("B") ()))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /course/cs4500f23/ta/tedium-workdir/testfest-results/9/40/Tests/1-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/40/Tests/1-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f23/ta/tedium-workdir/github/quirky-armadillos/9/../Q/Tests/run_xbaddies.py", line 6, in <module>
+    from Q.Referee.referee import Referee
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/referee.py", line 18, in <module>
+    from Q.Player.player import Player
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Player/player.py", line 4, in <module>
+    from Q.Common.game_state import GameState
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Common/game_state.py", line 17, in <module>
+    from Q.Referee.pair_results import Results
+ImportError: cannot import name 'Results' from 'Q.Referee.pair_results' (/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/pair_results.py)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((map
+           .
+           ((-3
+             (-2 #hasheq((color . "red") (shape . "circle")))
+             (0 #hasheq((color . "red") (shape . "8star")))
+             (2 #hasheq((color . "red") (shape . "diamond")))
+             (-1 #hasheq((color . "red") (shape . "square")))
+             (1 #hasheq((color . "red") (shape . "star"))))
+            (1
+             (-2 #hasheq((color . "blue") (shape . "clover")))
+             (-1 #hasheq((color . "blue") (shape . "8star")))
+             (0 #hasheq((color . "yellow") (shape . "8star")))
+             (1 #hasheq((color . "orange") (shape . "8star")))
+             (2 #hasheq((color . "orange") (shape . "star"))))
+            (2 (1 #hasheq((color . "orange") (shape . "circle"))))
+            (0
+             (-2 #hasheq((color . "purple") (shape . "clover")))
+             (0 #hasheq((color . "green") (shape . "8star")))
+             (2 #hasheq((color . "orange") (shape . "square"))))
+            (-1
+             (-2 #hasheq((color . "purple") (shape . "circle")))
+             (2 #hasheq((color . "orange") (shape . "diamond"))))
+            (-2
+             (-2 #hasheq((color . "orange") (shape . "circle")))
+             (2 #hasheq((color . "red") (shape . "diamond"))))))
+          (players
+           .
+           (#hasheq((name . "A")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "red") (shape . "diamond"))
+                      #hasheq((color . "green") (shape . "circle"))
+                      #hasheq((color . "blue") (shape . "star"))
+                      #hasheq((color . "yellow") (shape . "clover"))
+                      #hasheq((color . "purple") (shape . "square"))
+                      #hasheq((color . "orange") (shape . "8star")))))
+            #hasheq((name . "B")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "blue") (shape . "square"))
+                      #hasheq((color . "green") (shape . "8star"))
+                      #hasheq((color . "red") (shape . "diamond"))
+                      #hasheq((color . "yellow") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "star"))
+                      #hasheq((color . "orange") (shape . "clover")))))
+            #hasheq((name . "C")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "purple") (shape . "diamond"))
+                      #hasheq((color . "orange") (shape . "star"))
+                      #hasheq((color . "red") (shape . "8star"))
+                      #hasheq((color . "blue") (shape . "circle"))
+                      #hasheq((color . "green") (shape . "clover"))
+                      #hasheq((color . "yellow") (shape . "square")))))
+            #hasheq((name . "D")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "yellow") (shape . "clover"))
+                      #hasheq((color . "green") (shape . "diamond"))
+                      #hasheq((color . "red") (shape . "star"))
+                      #hasheq((color . "blue") (shape . "8star"))
+                      #hasheq((color . "orange") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "square")))))))
+          (tile*
+           .
+           (#hasheq((color . "red") (shape . "8star"))
+            #hasheq((color . "orange") (shape . "star"))
+            #hasheq((color . "yellow") (shape . "square"))
+            #hasheq((color . "blue") (shape . "circle"))
+            #hasheq((color . "green") (shape . "diamond")))))
+  (("A" "ldasg")
+   ("B" "ldasg" "setup" 2)
+   ("C" "ldasg")
+   ("D" "ldasg" "take-turn" 3)))
+(*** expected)
+'((("B") ("D")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /course/cs4500f23/ta/tedium-workdir/testfest-results/9/40/Tests/2-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/40/Tests/2-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f23/ta/tedium-workdir/github/quirky-armadillos/9/../Q/Tests/run_xbaddies.py", line 6, in <module>
+    from Q.Referee.referee import Referee
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/referee.py", line 18, in <module>
+    from Q.Player.player import Player
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Player/player.py", line 4, in <module>
+    from Q.Common.game_state import GameState
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Common/game_state.py", line 17, in <module>
+    from Q.Referee.pair_results import Results
+ImportError: cannot import name 'Results' from 'Q.Referee.pair_results' (/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/pair_results.py)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((map
+           .
+           ((-3
+             (-2 #hasheq((color . "red") (shape . "circle")))
+             (0 #hasheq((color . "red") (shape . "8star")))
+             (2 #hasheq((color . "red") (shape . "diamond")))
+             (-1 #hasheq((color . "red") (shape . "square")))
+             (1 #hasheq((color . "red") (shape . "star"))))
+            (1
+             (-2 #hasheq((color . "blue") (shape . "clover")))
+             (-1 #hasheq((color . "blue") (shape . "8star")))
+             (0 #hasheq((color . "yellow") (shape . "8star")))
+             (1 #hasheq((color . "orange") (shape . "8star")))
+             (2 #hasheq((color . "orange") (shape . "star"))))
+            (2 (1 #hasheq((color . "orange") (shape . "circle"))))
+            (0
+             (-2 #hasheq((color . "purple") (shape . "clover")))
+             (0 #hasheq((color . "green") (shape . "8star")))
+             (2 #hasheq((color . "orange") (shape . "square"))))
+            (-1
+             (-2 #hasheq((color . "purple") (shape . "circle")))
+             (2 #hasheq((color . "orange") (shape . "diamond"))))
+            (-2
+             (-2 #hasheq((color . "orange") (shape . "circle")))
+             (2 #hasheq((color . "red") (shape . "diamond"))))))
+          (players
+           .
+           (#hasheq((name . "A")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "red") (shape . "diamond"))
+                      #hasheq((color . "green") (shape . "circle"))
+                      #hasheq((color . "blue") (shape . "star"))
+                      #hasheq((color . "yellow") (shape . "clover"))
+                      #hasheq((color . "purple") (shape . "square"))
+                      #hasheq((color . "orange") (shape . "8star")))))
+            #hasheq((name . "B")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "blue") (shape . "square"))
+                      #hasheq((color . "green") (shape . "8star"))
+                      #hasheq((color . "red") (shape . "diamond"))
+                      #hasheq((color . "yellow") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "star"))
+                      #hasheq((color . "orange") (shape . "clover")))))))
+          (tile*
+           .
+           (#hasheq((color . "orange") (shape . "clover"))
+            #hasheq((color . "green") (shape . "square"))
+            #hasheq((color . "red") (shape . "star"))
+            #hasheq((color . "green") (shape . "8star"))
+            #hasheq((color . "yellow") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "diamond"))
+            #hasheq((color . "yellow") (shape . "star"))
+            #hasheq((color . "red") (shape . "circle"))
+            #hasheq((color . "orange") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "diamond"))
+            #hasheq((color . "green") (shape . "star"))
+            #hasheq((color . "red") (shape . "clover"))
+            #hasheq((color . "blue") (shape . "8star"))
+            #hasheq((color . "yellow") (shape . "square"))
+            #hasheq((color . "orange") (shape . "circle"))
+            #hasheq((color . "blue") (shape . "star"))
+            #hasheq((color . "purple") (shape . "clover"))
+            #hasheq((color . "green") (shape . "diamond"))
+            #hasheq((color . "green") (shape . "circle"))
+            #hasheq((color . "red") (shape . "8star"))
+            #hasheq((color . "red") (shape . "diamond"))
+            #hasheq((color . "red") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "8star"))
+            #hasheq((color . "purple") (shape . "star"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "blue") (shape . "diamond"))
+            #hasheq((color . "yellow") (shape . "clover"))
+            #hasheq((color . "blue") (shape . "square"))
+            #hasheq((color . "green") (shape . "clover"))
+            #hasheq((color . "orange") (shape . "diamond"))
+            #hasheq((color . "purple") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "square"))
+            #hasheq((color . "orange") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "diamond"))
+            #hasheq((color . "red") (shape . "circle"))
+            #hasheq((color . "blue") (shape . "clover"))
+            #hasheq((color . "purple") (shape . "square"))
+            #hasheq((color . "blue") (shape . "star"))
+            #hasheq((color . "orange") (shape . "diamond"))
+            #hasheq((color . "blue") (shape . "8star"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "green") (shape . "square"))
+            #hasheq((color . "red") (shape . "clover"))
+            #hasheq((color . "orange") (shape . "8star"))
+            #hasheq((color . "orange") (shape . "star"))
+            #hasheq((color . "red") (shape . "diamond"))
+            #hasheq((color . "blue") (shape . "clover"))
+            #hasheq((color . "purple") (shape . "star"))
+            #hasheq((color . "yellow") (shape . "8star"))
+            #hasheq((color . "green") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "diamond"))
+            #hasheq((color . "blue") (shape . "8star"))
+            #hasheq((color . "red") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "clover"))
+            #hasheq((color . "orange") (shape . "star"))
+            #hasheq((color . "green") (shape . "diamond"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "orange") (shape . "8star"))
+            #hasheq((color . "red") (shape . "clover"))
+            #hasheq((color . "green") (shape . "star"))
+            #hasheq((color . "yellow") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "diamond"))
+            #hasheq((color . "yellow") (shape . "clover"))
+            #hasheq((color . "blue") (shape . "star"))
+            #hasheq((color . "red") (shape . "square"))
+            #hasheq((color . "orange") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "diamond"))
+            #hasheq((color . "red") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "circle"))
+            #hasheq((color . "green") (shape . "clover"))
+            #hasheq((color . "orange") (shape . "square"))
+            #hasheq((color . "purple") (shape . "star"))
+            #hasheq((color . "green") (shape . "8star"))
+            #hasheq((color . "orange") (shape . "diamond"))
+            #hasheq((color . "green") (shape . "circle"))
+            #hasheq((color . "blue") (shape . "clover"))
+            #hasheq((color . "red") (shape . "star"))
+            #hasheq((color . "red") (shape . "diamond"))
+            #hasheq((color . "purple") (shape . "8star"))
+            #hasheq((color . "purple") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "circle"))
+            #hasheq((color . "orange") (shape . "diamond"))
+            #hasheq((color . "orange") (shape . "clover"))
+            #hasheq((color . "yellow") (shape . "star"))
+            #hasheq((color . "purple") (shape . "8star"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "blue") (shape . "square"))
+            #hasheq((color . "green") (shape . "diamond"))
+            #hasheq((color . "green") (shape . "clover"))
+            #hasheq((color . "red") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "star"))
+            #hasheq((color . "purple") (shape . "square"))
+            #hasheq((color . "blue") (shape . "diamond"))
+            #hasheq((color . "purple") (shape . "clover"))
+            #hasheq((color . "blue") (shape . "circle"))
+            #hasheq((color . "yellow") (shape . "8star"))
+            #hasheq((color . "purple") (shape . "star"))
+            #hasheq((color . "orange") (shape . "square"))
+            #hasheq((color . "blue") (shape . "diamond")))))
+  (("A" "dag" "win") ("B" "dag" "take-turn" 2)))
+(*** expected)
+'((() ("B" "A")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /course/cs4500f23/ta/tedium-workdir/testfest-results/9/40/Tests/3-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/40/Tests/3-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f23/ta/tedium-workdir/github/quirky-armadillos/9/../Q/Tests/run_xbaddies.py", line 6, in <module>
+    from Q.Referee.referee import Referee
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/referee.py", line 18, in <module>
+    from Q.Player.player import Player
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Player/player.py", line 4, in <module>
+    from Q.Common.game_state import GameState
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Common/game_state.py", line 17, in <module>
+    from Q.Referee.pair_results import Results
+ImportError: cannot import name 'Results' from 'Q.Referee.pair_results' (/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/pair_results.py)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((map
+           .
+           ((-3
+             (-2 #hasheq((color . "red") (shape . "circle")))
+             (0 #hasheq((color . "red") (shape . "8star")))
+             (2 #hasheq((color . "red") (shape . "diamond")))
+             (-1 #hasheq((color . "red") (shape . "square")))
+             (1 #hasheq((color . "red") (shape . "star"))))
+            (1
+             (-2 #hasheq((color . "blue") (shape . "clover")))
+             (-1 #hasheq((color . "blue") (shape . "8star")))
+             (0 #hasheq((color . "yellow") (shape . "8star")))
+             (1 #hasheq((color . "orange") (shape . "8star")))
+             (2 #hasheq((color . "orange") (shape . "star"))))
+            (2 (1 #hasheq((color . "orange") (shape . "circle"))))
+            (0
+             (-2 #hasheq((color . "purple") (shape . "clover")))
+             (0 #hasheq((color . "green") (shape . "8star")))
+             (2 #hasheq((color . "orange") (shape . "square"))))
+            (-1
+             (-2 #hasheq((color . "purple") (shape . "circle")))
+             (2 #hasheq((color . "orange") (shape . "diamond"))))
+            (-2
+             (-2 #hasheq((color . "orange") (shape . "circle")))
+             (2 #hasheq((color . "red") (shape . "diamond"))))))
+          (players
+           .
+           (#hasheq((name . "A")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "red") (shape . "diamond"))
+                      #hasheq((color . "green") (shape . "circle"))
+                      #hasheq((color . "blue") (shape . "star"))
+                      #hasheq((color . "yellow") (shape . "clover"))
+                      #hasheq((color . "purple") (shape . "square"))
+                      #hasheq((color . "orange") (shape . "8star")))))
+            #hasheq((name . "B")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "blue") (shape . "square"))
+                      #hasheq((color . "green") (shape . "8star"))
+                      #hasheq((color . "red") (shape . "diamond"))
+                      #hasheq((color . "yellow") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "star"))
+                      #hasheq((color . "orange") (shape . "clover")))))))
+          (tile*
+           .
+           (#hasheq((color . "red") (shape . "star"))
+            #hasheq((color . "blue") (shape . "diamond"))
+            #hasheq((color . "orange") (shape . "star"))
+            #hasheq((color . "yellow") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "8star"))
+            #hasheq((color . "green") (shape . "star"))
+            #hasheq((color . "orange") (shape . "circle"))
+            #hasheq((color . "green") (shape . "8star"))
+            #hasheq((color . "red") (shape . "circle"))
+            #hasheq((color . "orange") (shape . "8star"))
+            #hasheq((color . "green") (shape . "diamond"))
+            #hasheq((color . "yellow") (shape . "clover"))
+            #hasheq((color . "blue") (shape . "star"))
+            #hasheq((color . "green") (shape . "circle"))
+            #hasheq((color . "orange") (shape . "clover"))
+            #hasheq((color . "purple") (shape . "diamond"))
+            #hasheq((color . "blue") (shape . "circle"))
+            #hasheq((color . "green") (shape . "square"))
+            #hasheq((color . "blue") (shape . "clover"))
+            #hasheq((color . "blue") (shape . "8star"))
+            #hasheq((color . "orange") (shape . "diamond"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "red") (shape . "clover"))
+            #hasheq((color . "red") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "square"))
+            #hasheq((color . "purple") (shape . "star"))
+            #hasheq((color . "green") (shape . "clover"))
+            #hasheq((color . "yellow") (shape . "diamond"))
+            #hasheq((color . "orange") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "star"))
+            #hasheq((color . "red") (shape . "square"))
+            #hasheq((color . "purple") (shape . "clover"))
+            #hasheq((color . "red") (shape . "diamond"))
+            #hasheq((color . "yellow") (shape . "square"))
+            #hasheq((color . "purple") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "star"))
+            #hasheq((color . "yellow") (shape . "diamond"))
+            #hasheq((color . "blue") (shape . "circle"))
+            #hasheq((color . "red") (shape . "square"))
+            #hasheq((color . "red") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "diamond"))
+            #hasheq((color . "red") (shape . "clover"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "square"))
+            #hasheq((color . "green") (shape . "8star"))
+            #hasheq((color . "red") (shape . "circle"))
+            #hasheq((color . "green") (shape . "diamond"))
+            #hasheq((color . "blue") (shape . "clover"))
+            #hasheq((color . "purple") (shape . "8star")))))
+  (("A" "dag" "win") ("B" "dag" "take-turn" 3)))
+(*** expected)
+'((() ("B" "A")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /course/cs4500f23/ta/tedium-workdir/testfest-results/9/40/Tests/4-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/40/Tests/4-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f23/ta/tedium-workdir/github/quirky-armadillos/9/../Q/Tests/run_xbaddies.py", line 6, in <module>
+    from Q.Referee.referee import Referee
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/referee.py", line 18, in <module>
+    from Q.Player.player import Player
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Player/player.py", line 4, in <module>
+    from Q.Common.game_state import GameState
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Common/game_state.py", line 17, in <module>
+    from Q.Referee.pair_results import Results
+ImportError: cannot import name 'Results' from 'Q.Referee.pair_results' (/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/pair_results.py)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((map
+           .
+           ((-3
+             (-2 #hasheq((color . "red") (shape . "circle")))
+             (0 #hasheq((color . "red") (shape . "8star")))
+             (2 #hasheq((color . "red") (shape . "diamond")))
+             (-1 #hasheq((color . "red") (shape . "square")))
+             (1 #hasheq((color . "red") (shape . "star"))))
+            (1
+             (-2 #hasheq((color . "blue") (shape . "clover")))
+             (-1 #hasheq((color . "blue") (shape . "8star")))
+             (0 #hasheq((color . "yellow") (shape . "8star")))
+             (1 #hasheq((color . "orange") (shape . "8star")))
+             (2 #hasheq((color . "orange") (shape . "star"))))
+            (2 (1 #hasheq((color . "orange") (shape . "circle"))))
+            (0
+             (-2 #hasheq((color . "purple") (shape . "clover")))
+             (0 #hasheq((color . "green") (shape . "8star")))
+             (2 #hasheq((color . "orange") (shape . "square"))))
+            (-1
+             (-2 #hasheq((color . "purple") (shape . "circle")))
+             (2 #hasheq((color . "orange") (shape . "diamond"))))
+            (-2
+             (-2 #hasheq((color . "orange") (shape . "circle")))
+             (2 #hasheq((color . "red") (shape . "diamond"))))))
+          (players
+           .
+           (#hasheq((name . "A")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "red") (shape . "diamond"))
+                      #hasheq((color . "green") (shape . "circle"))
+                      #hasheq((color . "blue") (shape . "star"))
+                      #hasheq((color . "yellow") (shape . "clover"))
+                      #hasheq((color . "purple") (shape . "square"))
+                      #hasheq((color . "orange") (shape . "8star")))))
+            #hasheq((name . "B")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "blue") (shape . "square"))
+                      #hasheq((color . "green") (shape . "8star"))
+                      #hasheq((color . "red") (shape . "diamond"))
+                      #hasheq((color . "yellow") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "star"))
+                      #hasheq((color . "orange") (shape . "clover")))))
+            #hasheq((name . "C")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "purple") (shape . "diamond"))
+                      #hasheq((color . "orange") (shape . "star"))
+                      #hasheq((color . "red") (shape . "8star"))
+                      #hasheq((color . "blue") (shape . "circle"))
+                      #hasheq((color . "green") (shape . "clover"))
+                      #hasheq((color . "yellow") (shape . "square")))))))
+          (tile*
+           .
+           (#hasheq((color . "orange") (shape . "clover"))
+            #hasheq((color . "green") (shape . "square"))
+            #hasheq((color . "red") (shape . "star"))
+            #hasheq((color . "green") (shape . "8star"))
+            #hasheq((color . "yellow") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "diamond"))
+            #hasheq((color . "yellow") (shape . "star"))
+            #hasheq((color . "red") (shape . "circle"))
+            #hasheq((color . "orange") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "diamond"))
+            #hasheq((color . "green") (shape . "star"))
+            #hasheq((color . "red") (shape . "clover"))
+            #hasheq((color . "blue") (shape . "8star"))
+            #hasheq((color . "yellow") (shape . "square"))
+            #hasheq((color . "orange") (shape . "circle"))
+            #hasheq((color . "blue") (shape . "star"))
+            #hasheq((color . "purple") (shape . "clover"))
+            #hasheq((color . "green") (shape . "diamond"))
+            #hasheq((color . "green") (shape . "circle"))
+            #hasheq((color . "red") (shape . "8star"))
+            #hasheq((color . "red") (shape . "diamond"))
+            #hasheq((color . "red") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "8star"))
+            #hasheq((color . "purple") (shape . "star"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "blue") (shape . "diamond"))
+            #hasheq((color . "yellow") (shape . "clover"))
+            #hasheq((color . "blue") (shape . "square"))
+            #hasheq((color . "green") (shape . "clover"))
+            #hasheq((color . "orange") (shape . "diamond"))
+            #hasheq((color . "purple") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "square"))
+            #hasheq((color . "orange") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "diamond"))
+            #hasheq((color . "red") (shape . "circle"))
+            #hasheq((color . "blue") (shape . "clover"))
+            #hasheq((color . "purple") (shape . "square"))
+            #hasheq((color . "blue") (shape . "star"))
+            #hasheq((color . "orange") (shape . "diamond"))
+            #hasheq((color . "blue") (shape . "8star"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "green") (shape . "square"))
+            #hasheq((color . "red") (shape . "clover"))
+            #hasheq((color . "orange") (shape . "8star"))
+            #hasheq((color . "orange") (shape . "star"))
+            #hasheq((color . "red") (shape . "diamond"))
+            #hasheq((color . "blue") (shape . "clover"))
+            #hasheq((color . "purple") (shape . "star"))
+            #hasheq((color . "yellow") (shape . "8star"))
+            #hasheq((color . "green") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "diamond"))
+            #hasheq((color . "blue") (shape . "8star"))
+            #hasheq((color . "red") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "clover"))
+            #hasheq((color . "orange") (shape . "star"))
+            #hasheq((color . "green") (shape . "diamond"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "orange") (shape . "8star"))
+            #hasheq((color . "red") (shape . "clover"))
+            #hasheq((color . "green") (shape . "star"))
+            #hasheq((color . "yellow") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "diamond"))
+            #hasheq((color . "yellow") (shape . "clover"))
+            #hasheq((color . "blue") (shape . "star"))
+            #hasheq((color . "red") (shape . "square"))
+            #hasheq((color . "orange") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "diamond"))
+            #hasheq((color . "red") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "circle"))
+            #hasheq((color . "green") (shape . "clover"))
+            #hasheq((color . "orange") (shape . "square"))
+            #hasheq((color . "purple") (shape . "star"))
+            #hasheq((color . "green") (shape . "8star"))
+            #hasheq((color . "orange") (shape . "diamond"))
+            #hasheq((color . "green") (shape . "circle"))
+            #hasheq((color . "blue") (shape . "clover"))
+            #hasheq((color . "red") (shape . "star"))
+            #hasheq((color . "red") (shape . "diamond"))
+            #hasheq((color . "purple") (shape . "8star"))
+            #hasheq((color . "purple") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "circle"))
+            #hasheq((color . "orange") (shape . "diamond"))
+            #hasheq((color . "orange") (shape . "clover"))
+            #hasheq((color . "yellow") (shape . "star"))
+            #hasheq((color . "purple") (shape . "8star"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "blue") (shape . "square"))
+            #hasheq((color . "green") (shape . "diamond"))
+            #hasheq((color . "green") (shape . "clover"))
+            #hasheq((color . "red") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "star"))
+            #hasheq((color . "purple") (shape . "square"))
+            #hasheq((color . "blue") (shape . "diamond"))
+            #hasheq((color . "purple") (shape . "clover"))
+            #hasheq((color . "blue") (shape . "circle"))
+            #hasheq((color . "yellow") (shape . "8star"))
+            #hasheq((color . "purple") (shape . "star"))
+            #hasheq((color . "orange") (shape . "square"))
+            #hasheq((color . "blue") (shape . "diamond")))))
+  (("A" "dag" "take-turn" 3) ("B" "ldasg") ("C" "dag")))
+(*** expected)
+'((("B") ("A")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /course/cs4500f23/ta/tedium-workdir/testfest-results/9/40/Tests/5-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/40/Tests/5-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f23/ta/tedium-workdir/github/quirky-armadillos/9/../Q/Tests/run_xbaddies.py", line 6, in <module>
+    from Q.Referee.referee import Referee
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/referee.py", line 18, in <module>
+    from Q.Player.player import Player
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Player/player.py", line 4, in <module>
+    from Q.Common.game_state import GameState
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Common/game_state.py", line 17, in <module>
+    from Q.Referee.pair_results import Results
+ImportError: cannot import name 'Results' from 'Q.Referee.pair_results' (/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/pair_results.py)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((map
+           .
+           ((-3
+             (-2 #hasheq((color . "red") (shape . "circle")))
+             (0 #hasheq((color . "red") (shape . "8star")))
+             (2 #hasheq((color . "red") (shape . "diamond")))
+             (-1 #hasheq((color . "red") (shape . "square")))
+             (1 #hasheq((color . "red") (shape . "star"))))
+            (1
+             (-2 #hasheq((color . "blue") (shape . "clover")))
+             (-1 #hasheq((color . "blue") (shape . "8star")))
+             (0 #hasheq((color . "yellow") (shape . "8star")))
+             (1 #hasheq((color . "orange") (shape . "8star")))
+             (2 #hasheq((color . "orange") (shape . "star"))))
+            (2 (1 #hasheq((color . "orange") (shape . "circle"))))
+            (0
+             (-2 #hasheq((color . "purple") (shape . "clover")))
+             (0 #hasheq((color . "green") (shape . "8star")))
+             (2 #hasheq((color . "orange") (shape . "square"))))
+            (-1
+             (-2 #hasheq((color . "purple") (shape . "circle")))
+             (2 #hasheq((color . "orange") (shape . "diamond"))))
+            (-2
+             (-2 #hasheq((color . "orange") (shape . "circle")))
+             (2 #hasheq((color . "red") (shape . "diamond"))))))
+          (players
+           .
+           (#hasheq((name . "A")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "red") (shape . "diamond"))
+                      #hasheq((color . "green") (shape . "circle"))
+                      #hasheq((color . "blue") (shape . "star"))
+                      #hasheq((color . "yellow") (shape . "clover"))
+                      #hasheq((color . "purple") (shape . "square"))
+                      #hasheq((color . "orange") (shape . "8star")))))
+            #hasheq((name . "B")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "blue") (shape . "square"))
+                      #hasheq((color . "green") (shape . "8star"))
+                      #hasheq((color . "red") (shape . "diamond"))
+                      #hasheq((color . "yellow") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "star"))
+                      #hasheq((color . "orange") (shape . "clover")))))
+            #hasheq((name . "C")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "purple") (shape . "diamond"))
+                      #hasheq((color . "orange") (shape . "star"))
+                      #hasheq((color . "red") (shape . "8star"))
+                      #hasheq((color . "blue") (shape . "circle"))
+                      #hasheq((color . "green") (shape . "clover"))
+                      #hasheq((color . "yellow") (shape . "square")))))))
+          (tile*
+           .
+           (#hasheq((color . "red") (shape . "star"))
+            #hasheq((color . "blue") (shape . "diamond"))
+            #hasheq((color . "orange") (shape . "star"))
+            #hasheq((color . "yellow") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "8star"))
+            #hasheq((color . "green") (shape . "star"))
+            #hasheq((color . "orange") (shape . "circle"))
+            #hasheq((color . "green") (shape . "8star"))
+            #hasheq((color . "red") (shape . "circle"))
+            #hasheq((color . "orange") (shape . "8star"))
+            #hasheq((color . "green") (shape . "diamond"))
+            #hasheq((color . "yellow") (shape . "clover"))
+            #hasheq((color . "blue") (shape . "star"))
+            #hasheq((color . "green") (shape . "circle"))
+            #hasheq((color . "orange") (shape . "clover"))
+            #hasheq((color . "purple") (shape . "diamond"))
+            #hasheq((color . "blue") (shape . "circle"))
+            #hasheq((color . "green") (shape . "square"))
+            #hasheq((color . "blue") (shape . "clover"))
+            #hasheq((color . "blue") (shape . "8star"))
+            #hasheq((color . "orange") (shape . "diamond"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "red") (shape . "clover"))
+            #hasheq((color . "red") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "square"))
+            #hasheq((color . "purple") (shape . "star"))
+            #hasheq((color . "green") (shape . "clover"))
+            #hasheq((color . "yellow") (shape . "diamond"))
+            #hasheq((color . "orange") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "star"))
+            #hasheq((color . "red") (shape . "square"))
+            #hasheq((color . "purple") (shape . "clover"))
+            #hasheq((color . "red") (shape . "diamond"))
+            #hasheq((color . "yellow") (shape . "square"))
+            #hasheq((color . "purple") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "star"))
+            #hasheq((color . "yellow") (shape . "diamond"))
+            #hasheq((color . "blue") (shape . "circle"))
+            #hasheq((color . "red") (shape . "square"))
+            #hasheq((color . "red") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "diamond"))
+            #hasheq((color . "red") (shape . "clover"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "square"))
+            #hasheq((color . "green") (shape . "8star"))
+            #hasheq((color . "red") (shape . "circle"))
+            #hasheq((color . "green") (shape . "diamond"))
+            #hasheq((color . "blue") (shape . "clover"))
+            #hasheq((color . "purple") (shape . "8star")))))
+  (("A" "ldasg" "new-tiles") ("B" "dag" "win") ("C" "ldasg" "take-turn" 2)))
+(*** expected)
+'((() ("A" "C" "B")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /course/cs4500f23/ta/tedium-workdir/testfest-results/9/40/Tests/6-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/40/Tests/6-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f23/ta/tedium-workdir/github/quirky-armadillos/9/../Q/Tests/run_xbaddies.py", line 6, in <module>
+    from Q.Referee.referee import Referee
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/referee.py", line 18, in <module>
+    from Q.Player.player import Player
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Player/player.py", line 4, in <module>
+    from Q.Common.game_state import GameState
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Common/game_state.py", line 17, in <module>
+    from Q.Referee.pair_results import Results
+ImportError: cannot import name 'Results' from 'Q.Referee.pair_results' (/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/pair_results.py)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((map
+           .
+           ((-3
+             (-2 #hasheq((color . "red") (shape . "circle")))
+             (0 #hasheq((color . "red") (shape . "8star")))
+             (2 #hasheq((color . "red") (shape . "diamond")))
+             (-1 #hasheq((color . "red") (shape . "square")))
+             (1 #hasheq((color . "red") (shape . "star"))))
+            (1
+             (-2 #hasheq((color . "blue") (shape . "clover")))
+             (-1 #hasheq((color . "blue") (shape . "8star")))
+             (0 #hasheq((color . "yellow") (shape . "8star")))
+             (1 #hasheq((color . "orange") (shape . "8star")))
+             (2 #hasheq((color . "orange") (shape . "star"))))
+            (2 (1 #hasheq((color . "orange") (shape . "circle"))))
+            (0
+             (-2 #hasheq((color . "purple") (shape . "clover")))
+             (0 #hasheq((color . "green") (shape . "8star")))
+             (2 #hasheq((color . "orange") (shape . "square"))))
+            (-1
+             (-2 #hasheq((color . "purple") (shape . "circle")))
+             (2 #hasheq((color . "orange") (shape . "diamond"))))
+            (-2
+             (-2 #hasheq((color . "orange") (shape . "circle")))
+             (2 #hasheq((color . "red") (shape . "diamond"))))))
+          (players
+           .
+           (#hasheq((name . "A")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "red") (shape . "diamond"))
+                      #hasheq((color . "green") (shape . "circle"))
+                      #hasheq((color . "blue") (shape . "star"))
+                      #hasheq((color . "yellow") (shape . "clover"))
+                      #hasheq((color . "purple") (shape . "square"))
+                      #hasheq((color . "orange") (shape . "8star")))))
+            #hasheq((name . "B")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "blue") (shape . "square"))
+                      #hasheq((color . "green") (shape . "8star"))
+                      #hasheq((color . "red") (shape . "diamond"))
+                      #hasheq((color . "yellow") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "star"))
+                      #hasheq((color . "orange") (shape . "clover")))))
+            #hasheq((name . "C")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "purple") (shape . "diamond"))
+                      #hasheq((color . "orange") (shape . "star"))
+                      #hasheq((color . "red") (shape . "8star"))
+                      #hasheq((color . "blue") (shape . "circle"))
+                      #hasheq((color . "green") (shape . "clover"))
+                      #hasheq((color . "yellow") (shape . "square")))))
+            #hasheq((name . "D")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "yellow") (shape . "clover"))
+                      #hasheq((color . "green") (shape . "diamond"))
+                      #hasheq((color . "red") (shape . "star"))
+                      #hasheq((color . "blue") (shape . "8star"))
+                      #hasheq((color . "orange") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "square")))))))
+          (tile*
+           .
+           (#hasheq((color . "orange") (shape . "clover"))
+            #hasheq((color . "green") (shape . "square"))
+            #hasheq((color . "red") (shape . "star"))
+            #hasheq((color . "green") (shape . "8star"))
+            #hasheq((color . "yellow") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "diamond"))
+            #hasheq((color . "yellow") (shape . "star"))
+            #hasheq((color . "red") (shape . "circle"))
+            #hasheq((color . "orange") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "diamond"))
+            #hasheq((color . "green") (shape . "star"))
+            #hasheq((color . "red") (shape . "clover"))
+            #hasheq((color . "blue") (shape . "8star"))
+            #hasheq((color . "yellow") (shape . "square"))
+            #hasheq((color . "orange") (shape . "circle"))
+            #hasheq((color . "blue") (shape . "star"))
+            #hasheq((color . "purple") (shape . "clover"))
+            #hasheq((color . "green") (shape . "diamond"))
+            #hasheq((color . "green") (shape . "circle"))
+            #hasheq((color . "red") (shape . "8star"))
+            #hasheq((color . "red") (shape . "diamond"))
+            #hasheq((color . "red") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "8star"))
+            #hasheq((color . "purple") (shape . "star"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "blue") (shape . "diamond"))
+            #hasheq((color . "yellow") (shape . "clover"))
+            #hasheq((color . "blue") (shape . "square"))
+            #hasheq((color . "green") (shape . "clover"))
+            #hasheq((color . "orange") (shape . "diamond"))
+            #hasheq((color . "purple") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "square"))
+            #hasheq((color . "orange") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "diamond"))
+            #hasheq((color . "red") (shape . "circle"))
+            #hasheq((color . "blue") (shape . "clover"))
+            #hasheq((color . "purple") (shape . "square"))
+            #hasheq((color . "blue") (shape . "star"))
+            #hasheq((color . "orange") (shape . "diamond"))
+            #hasheq((color . "blue") (shape . "8star"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "green") (shape . "square"))
+            #hasheq((color . "red") (shape . "clover"))
+            #hasheq((color . "orange") (shape . "8star"))
+            #hasheq((color . "orange") (shape . "star"))
+            #hasheq((color . "red") (shape . "diamond"))
+            #hasheq((color . "blue") (shape . "clover"))
+            #hasheq((color . "purple") (shape . "star"))
+            #hasheq((color . "yellow") (shape . "8star"))
+            #hasheq((color . "green") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "diamond"))
+            #hasheq((color . "blue") (shape . "8star"))
+            #hasheq((color . "red") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "clover"))
+            #hasheq((color . "orange") (shape . "star"))
+            #hasheq((color . "green") (shape . "diamond"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "orange") (shape . "8star"))
+            #hasheq((color . "red") (shape . "clover"))
+            #hasheq((color . "green") (shape . "star"))
+            #hasheq((color . "yellow") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "diamond"))
+            #hasheq((color . "yellow") (shape . "clover"))
+            #hasheq((color . "blue") (shape . "star"))
+            #hasheq((color . "red") (shape . "square"))
+            #hasheq((color . "orange") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "diamond"))
+            #hasheq((color . "red") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "circle"))
+            #hasheq((color . "green") (shape . "clover"))
+            #hasheq((color . "orange") (shape . "square"))
+            #hasheq((color . "purple") (shape . "star"))
+            #hasheq((color . "green") (shape . "8star"))
+            #hasheq((color . "orange") (shape . "diamond"))
+            #hasheq((color . "green") (shape . "circle"))
+            #hasheq((color . "blue") (shape . "clover"))
+            #hasheq((color . "red") (shape . "star"))
+            #hasheq((color . "red") (shape . "diamond"))
+            #hasheq((color . "purple") (shape . "8star"))
+            #hasheq((color . "purple") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "circle"))
+            #hasheq((color . "orange") (shape . "diamond"))
+            #hasheq((color . "orange") (shape . "clover"))
+            #hasheq((color . "yellow") (shape . "star"))
+            #hasheq((color . "purple") (shape . "8star"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "blue") (shape . "square"))
+            #hasheq((color . "green") (shape . "diamond"))
+            #hasheq((color . "green") (shape . "clover"))
+            #hasheq((color . "red") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "star"))
+            #hasheq((color . "purple") (shape . "square"))
+            #hasheq((color . "blue") (shape . "diamond"))
+            #hasheq((color . "purple") (shape . "clover"))
+            #hasheq((color . "blue") (shape . "circle"))
+            #hasheq((color . "yellow") (shape . "8star"))
+            #hasheq((color . "purple") (shape . "star"))
+            #hasheq((color . "orange") (shape . "square"))
+            #hasheq((color . "blue") (shape . "diamond")))))
+  (("A" "dag" "take-turn" 3) ("B" "ldasg") ("C" "dag") ("D" "dag")))
+(*** expected)
+'((("B") ("A")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /course/cs4500f23/ta/tedium-workdir/testfest-results/9/40/Tests/7-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/40/Tests/7-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f23/ta/tedium-workdir/github/quirky-armadillos/9/../Q/Tests/run_xbaddies.py", line 6, in <module>
+    from Q.Referee.referee import Referee
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/referee.py", line 18, in <module>
+    from Q.Player.player import Player
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Player/player.py", line 4, in <module>
+    from Q.Common.game_state import GameState
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Common/game_state.py", line 17, in <module>
+    from Q.Referee.pair_results import Results
+ImportError: cannot import name 'Results' from 'Q.Referee.pair_results' (/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/pair_results.py)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((map
+           .
+           ((-3
+             (-2 #hasheq((color . "red") (shape . "circle")))
+             (0 #hasheq((color . "red") (shape . "8star")))
+             (2 #hasheq((color . "red") (shape . "diamond")))
+             (-1 #hasheq((color . "red") (shape . "square")))
+             (1 #hasheq((color . "red") (shape . "star"))))
+            (1
+             (-2 #hasheq((color . "blue") (shape . "clover")))
+             (-1 #hasheq((color . "blue") (shape . "8star")))
+             (0 #hasheq((color . "yellow") (shape . "8star")))
+             (1 #hasheq((color . "orange") (shape . "8star")))
+             (2 #hasheq((color . "orange") (shape . "star"))))
+            (2 (1 #hasheq((color . "orange") (shape . "circle"))))
+            (0
+             (-2 #hasheq((color . "purple") (shape . "clover")))
+             (0 #hasheq((color . "green") (shape . "8star")))
+             (2 #hasheq((color . "orange") (shape . "square"))))
+            (-1
+             (-2 #hasheq((color . "purple") (shape . "circle")))
+             (2 #hasheq((color . "orange") (shape . "diamond"))))
+            (-2
+             (-2 #hasheq((color . "orange") (shape . "circle")))
+             (2 #hasheq((color . "red") (shape . "diamond"))))))
+          (players
+           .
+           (#hasheq((name . "A")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "red") (shape . "diamond"))
+                      #hasheq((color . "green") (shape . "circle"))
+                      #hasheq((color . "blue") (shape . "star"))
+                      #hasheq((color . "yellow") (shape . "clover"))
+                      #hasheq((color . "purple") (shape . "square"))
+                      #hasheq((color . "orange") (shape . "8star")))))
+            #hasheq((name . "B")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "blue") (shape . "square"))
+                      #hasheq((color . "green") (shape . "8star"))
+                      #hasheq((color . "red") (shape . "diamond"))
+                      #hasheq((color . "yellow") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "star"))
+                      #hasheq((color . "orange") (shape . "clover")))))
+            #hasheq((name . "C")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "purple") (shape . "diamond"))
+                      #hasheq((color . "orange") (shape . "star"))
+                      #hasheq((color . "red") (shape . "8star"))
+                      #hasheq((color . "blue") (shape . "circle"))
+                      #hasheq((color . "green") (shape . "clover"))
+                      #hasheq((color . "yellow") (shape . "square")))))
+            #hasheq((name . "D")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "yellow") (shape . "clover"))
+                      #hasheq((color . "green") (shape . "diamond"))
+                      #hasheq((color . "red") (shape . "star"))
+                      #hasheq((color . "blue") (shape . "8star"))
+                      #hasheq((color . "orange") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "square")))))))
+          (tile*
+           .
+           (#hasheq((color . "red") (shape . "star"))
+            #hasheq((color . "blue") (shape . "diamond"))
+            #hasheq((color . "orange") (shape . "star"))
+            #hasheq((color . "yellow") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "8star"))
+            #hasheq((color . "green") (shape . "star"))
+            #hasheq((color . "orange") (shape . "circle"))
+            #hasheq((color . "green") (shape . "8star"))
+            #hasheq((color . "red") (shape . "circle"))
+            #hasheq((color . "orange") (shape . "8star"))
+            #hasheq((color . "green") (shape . "diamond"))
+            #hasheq((color . "yellow") (shape . "clover"))
+            #hasheq((color . "blue") (shape . "star"))
+            #hasheq((color . "green") (shape . "circle"))
+            #hasheq((color . "orange") (shape . "clover"))
+            #hasheq((color . "purple") (shape . "diamond"))
+            #hasheq((color . "blue") (shape . "circle"))
+            #hasheq((color . "green") (shape . "square"))
+            #hasheq((color . "blue") (shape . "clover"))
+            #hasheq((color . "blue") (shape . "8star"))
+            #hasheq((color . "orange") (shape . "diamond"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "red") (shape . "clover"))
+            #hasheq((color . "red") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "square"))
+            #hasheq((color . "purple") (shape . "star"))
+            #hasheq((color . "green") (shape . "clover"))
+            #hasheq((color . "yellow") (shape . "diamond"))
+            #hasheq((color . "orange") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "star"))
+            #hasheq((color . "red") (shape . "square"))
+            #hasheq((color . "purple") (shape . "clover"))
+            #hasheq((color . "red") (shape . "diamond"))
+            #hasheq((color . "yellow") (shape . "square"))
+            #hasheq((color . "purple") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "star"))
+            #hasheq((color . "yellow") (shape . "diamond"))
+            #hasheq((color . "blue") (shape . "circle"))
+            #hasheq((color . "red") (shape . "square"))
+            #hasheq((color . "red") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "diamond"))
+            #hasheq((color . "red") (shape . "clover"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "square"))
+            #hasheq((color . "green") (shape . "8star"))
+            #hasheq((color . "red") (shape . "circle"))
+            #hasheq((color . "green") (shape . "diamond"))
+            #hasheq((color . "blue") (shape . "clover"))
+            #hasheq((color . "purple") (shape . "8star")))))
+  (("A" "ldasg" "new-tiles")
+   ("B" "dag" "win")
+   ("C" "ldasg" "take-turn" 2)
+   ("D" "dag")))
+(*** expected)
+'((() ("A" "C" "B")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /course/cs4500f23/ta/tedium-workdir/testfest-results/9/40/Tests/8-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/40/Tests/8-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f23/ta/tedium-workdir/github/quirky-armadillos/9/../Q/Tests/run_xbaddies.py", line 6, in <module>
+    from Q.Referee.referee import Referee
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/referee.py", line 18, in <module>
+    from Q.Player.player import Player
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Player/player.py", line 4, in <module>
+    from Q.Common.game_state import GameState
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Common/game_state.py", line 17, in <module>
+    from Q.Referee.pair_results import Results
+ImportError: cannot import name 'Results' from 'Q.Referee.pair_results' (/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/pair_results.py)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((map
+           .
+           ((-3
+             (-2 #hasheq((color . "red") (shape . "circle")))
+             (0 #hasheq((color . "red") (shape . "8star")))
+             (2 #hasheq((color . "red") (shape . "diamond")))
+             (-1 #hasheq((color . "red") (shape . "square")))
+             (1 #hasheq((color . "red") (shape . "star"))))
+            (1
+             (-2 #hasheq((color . "blue") (shape . "clover")))
+             (-1 #hasheq((color . "blue") (shape . "8star")))
+             (0 #hasheq((color . "yellow") (shape . "8star")))
+             (1 #hasheq((color . "orange") (shape . "8star")))
+             (2 #hasheq((color . "orange") (shape . "star"))))
+            (2 (1 #hasheq((color . "orange") (shape . "circle"))))
+            (0
+             (-2 #hasheq((color . "purple") (shape . "clover")))
+             (0 #hasheq((color . "green") (shape . "8star")))
+             (2 #hasheq((color . "orange") (shape . "square"))))
+            (-1
+             (-2 #hasheq((color . "purple") (shape . "circle")))
+             (2 #hasheq((color . "orange") (shape . "diamond"))))
+            (-2
+             (-2 #hasheq((color . "orange") (shape . "circle")))
+             (2 #hasheq((color . "red") (shape . "diamond"))))))
+          (players
+           .
+           (#hasheq((name . "A")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "red") (shape . "diamond"))
+                      #hasheq((color . "green") (shape . "circle"))
+                      #hasheq((color . "blue") (shape . "star"))
+                      #hasheq((color . "yellow") (shape . "clover"))
+                      #hasheq((color . "purple") (shape . "square"))
+                      #hasheq((color . "orange") (shape . "8star")))))
+            #hasheq((name . "B")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "blue") (shape . "square"))
+                      #hasheq((color . "green") (shape . "8star"))
+                      #hasheq((color . "red") (shape . "diamond"))
+                      #hasheq((color . "yellow") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "star"))
+                      #hasheq((color . "orange") (shape . "clover")))))
+            #hasheq((name . "C")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "purple") (shape . "diamond"))
+                      #hasheq((color . "orange") (shape . "star"))
+                      #hasheq((color . "red") (shape . "8star"))
+                      #hasheq((color . "blue") (shape . "circle"))
+                      #hasheq((color . "green") (shape . "clover"))
+                      #hasheq((color . "yellow") (shape . "square")))))
+            #hasheq((name . "D")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "yellow") (shape . "clover"))
+                      #hasheq((color . "green") (shape . "diamond"))
+                      #hasheq((color . "red") (shape . "star"))
+                      #hasheq((color . "blue") (shape . "8star"))
+                      #hasheq((color . "orange") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "square")))))))
+          (tile*
+           .
+           (#hasheq((color . "orange") (shape . "clover"))
+            #hasheq((color . "green") (shape . "square"))
+            #hasheq((color . "red") (shape . "star"))
+            #hasheq((color . "green") (shape . "8star"))
+            #hasheq((color . "yellow") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "diamond"))
+            #hasheq((color . "yellow") (shape . "star"))
+            #hasheq((color . "red") (shape . "circle"))
+            #hasheq((color . "orange") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "diamond"))
+            #hasheq((color . "green") (shape . "star"))
+            #hasheq((color . "red") (shape . "clover"))
+            #hasheq((color . "blue") (shape . "8star"))
+            #hasheq((color . "yellow") (shape . "square"))
+            #hasheq((color . "orange") (shape . "circle"))
+            #hasheq((color . "blue") (shape . "star"))
+            #hasheq((color . "purple") (shape . "clover"))
+            #hasheq((color . "green") (shape . "diamond"))
+            #hasheq((color . "green") (shape . "circle"))
+            #hasheq((color . "red") (shape . "8star"))
+            #hasheq((color . "red") (shape . "diamond"))
+            #hasheq((color . "red") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "8star"))
+            #hasheq((color . "purple") (shape . "star"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "blue") (shape . "diamond"))
+            #hasheq((color . "yellow") (shape . "clover"))
+            #hasheq((color . "blue") (shape . "square"))
+            #hasheq((color . "green") (shape . "clover"))
+            #hasheq((color . "orange") (shape . "diamond"))
+            #hasheq((color . "purple") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "square"))
+            #hasheq((color . "orange") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "diamond"))
+            #hasheq((color . "red") (shape . "circle"))
+            #hasheq((color . "blue") (shape . "clover"))
+            #hasheq((color . "purple") (shape . "square"))
+            #hasheq((color . "blue") (shape . "star"))
+            #hasheq((color . "orange") (shape . "diamond"))
+            #hasheq((color . "blue") (shape . "8star"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "green") (shape . "square"))
+            #hasheq((color . "red") (shape . "clover"))
+            #hasheq((color . "orange") (shape . "8star"))
+            #hasheq((color . "orange") (shape . "star"))
+            #hasheq((color . "red") (shape . "diamond"))
+            #hasheq((color . "blue") (shape . "clover"))
+            #hasheq((color . "purple") (shape . "star"))
+            #hasheq((color . "yellow") (shape . "8star"))
+            #hasheq((color . "green") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "diamond"))
+            #hasheq((color . "blue") (shape . "8star"))
+            #hasheq((color . "red") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "clover"))
+            #hasheq((color . "orange") (shape . "star"))
+            #hasheq((color . "green") (shape . "diamond"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "orange") (shape . "8star"))
+            #hasheq((color . "red") (shape . "clover"))
+            #hasheq((color . "green") (shape . "star"))
+            #hasheq((color . "yellow") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "diamond"))
+            #hasheq((color . "yellow") (shape . "clover"))
+            #hasheq((color . "blue") (shape . "star"))
+            #hasheq((color . "red") (shape . "square"))
+            #hasheq((color . "orange") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "diamond"))
+            #hasheq((color . "red") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "circle"))
+            #hasheq((color . "green") (shape . "clover"))
+            #hasheq((color . "orange") (shape . "square"))
+            #hasheq((color . "purple") (shape . "star"))
+            #hasheq((color . "green") (shape . "8star"))
+            #hasheq((color . "orange") (shape . "diamond"))
+            #hasheq((color . "green") (shape . "circle"))
+            #hasheq((color . "blue") (shape . "clover"))
+            #hasheq((color . "red") (shape . "star"))
+            #hasheq((color . "red") (shape . "diamond"))
+            #hasheq((color . "purple") (shape . "8star"))
+            #hasheq((color . "purple") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "circle"))
+            #hasheq((color . "orange") (shape . "diamond"))
+            #hasheq((color . "orange") (shape . "clover"))
+            #hasheq((color . "yellow") (shape . "star"))
+            #hasheq((color . "purple") (shape . "8star"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "blue") (shape . "square"))
+            #hasheq((color . "green") (shape . "diamond"))
+            #hasheq((color . "green") (shape . "clover"))
+            #hasheq((color . "red") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "star"))
+            #hasheq((color . "purple") (shape . "square"))
+            #hasheq((color . "blue") (shape . "diamond"))
+            #hasheq((color . "purple") (shape . "clover"))
+            #hasheq((color . "blue") (shape . "circle"))
+            #hasheq((color . "yellow") (shape . "8star"))
+            #hasheq((color . "purple") (shape . "star"))
+            #hasheq((color . "orange") (shape . "square"))
+            #hasheq((color . "blue") (shape . "diamond")))))
+  (("A" "dag" "win") ("B" "dag" "take-turn" 2) ("C" "ldasg") ("D" "dag")))
+(*** expected)
+'((("C") ("B" "A")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /course/cs4500f23/ta/tedium-workdir/testfest-results/9/40/Tests/9-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/40/Tests/9-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f23/ta/tedium-workdir/github/quirky-armadillos/9/../Q/Tests/run_xbaddies.py", line 6, in <module>
+    from Q.Referee.referee import Referee
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/referee.py", line 18, in <module>
+    from Q.Player.player import Player
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Player/player.py", line 4, in <module>
+    from Q.Common.game_state import GameState
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Common/game_state.py", line 17, in <module>
+    from Q.Referee.pair_results import Results
+ImportError: cannot import name 'Results' from 'Q.Referee.pair_results' (/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/pair_results.py)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((map
+           .
+           ((-3
+             (-2 #hasheq((color . "red") (shape . "circle")))
+             (0 #hasheq((color . "red") (shape . "8star")))
+             (2 #hasheq((color . "red") (shape . "diamond")))
+             (-1 #hasheq((color . "red") (shape . "square")))
+             (1 #hasheq((color . "red") (shape . "star"))))
+            (1
+             (-2 #hasheq((color . "blue") (shape . "clover")))
+             (-1 #hasheq((color . "blue") (shape . "8star")))
+             (0 #hasheq((color . "yellow") (shape . "8star")))
+             (1 #hasheq((color . "orange") (shape . "8star")))
+             (2 #hasheq((color . "orange") (shape . "star"))))
+            (2 (1 #hasheq((color . "orange") (shape . "circle"))))
+            (0
+             (-2 #hasheq((color . "purple") (shape . "clover")))
+             (0 #hasheq((color . "green") (shape . "8star")))
+             (2 #hasheq((color . "orange") (shape . "square"))))
+            (-1
+             (-2 #hasheq((color . "purple") (shape . "circle")))
+             (2 #hasheq((color . "orange") (shape . "diamond"))))
+            (-2
+             (-2 #hasheq((color . "orange") (shape . "circle")))
+             (2 #hasheq((color . "red") (shape . "diamond"))))))
+          (players
+           .
+           (#hasheq((name . "A")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "red") (shape . "diamond"))
+                      #hasheq((color . "green") (shape . "circle"))
+                      #hasheq((color . "blue") (shape . "star"))
+                      #hasheq((color . "yellow") (shape . "clover"))
+                      #hasheq((color . "purple") (shape . "square"))
+                      #hasheq((color . "orange") (shape . "8star")))))
+            #hasheq((name . "B")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "blue") (shape . "square"))
+                      #hasheq((color . "green") (shape . "8star"))
+                      #hasheq((color . "red") (shape . "diamond"))
+                      #hasheq((color . "yellow") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "star"))
+                      #hasheq((color . "orange") (shape . "clover")))))
+            #hasheq((name . "C")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "purple") (shape . "diamond"))
+                      #hasheq((color . "orange") (shape . "star"))
+                      #hasheq((color . "red") (shape . "8star"))
+                      #hasheq((color . "blue") (shape . "circle"))
+                      #hasheq((color . "green") (shape . "clover"))
+                      #hasheq((color . "yellow") (shape . "square")))))
+            #hasheq((name . "D")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "yellow") (shape . "clover"))
+                      #hasheq((color . "green") (shape . "diamond"))
+                      #hasheq((color . "red") (shape . "star"))
+                      #hasheq((color . "blue") (shape . "8star"))
+                      #hasheq((color . "orange") (shape . "circle"))
+                      #hasheq((color . "purple") (shape . "square")))))))
+          (tile*
+           .
+           (#hasheq((color . "red") (shape . "star"))
+            #hasheq((color . "blue") (shape . "diamond"))
+            #hasheq((color . "orange") (shape . "star"))
+            #hasheq((color . "yellow") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "8star"))
+            #hasheq((color . "green") (shape . "star"))
+            #hasheq((color . "orange") (shape . "circle"))
+            #hasheq((color . "green") (shape . "8star"))
+            #hasheq((color . "red") (shape . "circle"))
+            #hasheq((color . "orange") (shape . "8star"))
+            #hasheq((color . "green") (shape . "diamond"))
+            #hasheq((color . "yellow") (shape . "clover"))
+            #hasheq((color . "blue") (shape . "star"))
+            #hasheq((color . "green") (shape . "circle"))
+            #hasheq((color . "orange") (shape . "clover"))
+            #hasheq((color . "purple") (shape . "diamond"))
+            #hasheq((color . "blue") (shape . "circle"))
+            #hasheq((color . "green") (shape . "square"))
+            #hasheq((color . "blue") (shape . "clover"))
+            #hasheq((color . "blue") (shape . "8star"))
+            #hasheq((color . "orange") (shape . "diamond"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "red") (shape . "clover"))
+            #hasheq((color . "red") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "square"))
+            #hasheq((color . "purple") (shape . "star"))
+            #hasheq((color . "green") (shape . "clover"))
+            #hasheq((color . "yellow") (shape . "diamond"))
+            #hasheq((color . "orange") (shape . "square"))
+            #hasheq((color . "yellow") (shape . "star"))
+            #hasheq((color . "red") (shape . "square"))
+            #hasheq((color . "purple") (shape . "clover"))
+            #hasheq((color . "red") (shape . "diamond"))
+            #hasheq((color . "yellow") (shape . "square"))
+            #hasheq((color . "purple") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "star"))
+            #hasheq((color . "yellow") (shape . "diamond"))
+            #hasheq((color . "blue") (shape . "circle"))
+            #hasheq((color . "red") (shape . "square"))
+            #hasheq((color . "red") (shape . "8star"))
+            #hasheq((color . "blue") (shape . "diamond"))
+            #hasheq((color . "red") (shape . "clover"))
+            #hasheq((color . "purple") (shape . "circle"))
+            #hasheq((color . "purple") (shape . "square"))
+            #hasheq((color . "green") (shape . "8star"))
+            #hasheq((color . "red") (shape . "circle"))
+            #hasheq((color . "green") (shape . "diamond"))
+            #hasheq((color . "blue") (shape . "clover"))
+            #hasheq((color . "purple") (shape . "8star")))))
+  (("A" "dag" "win")
+   ("B" "dag" "take-turn" 3)
+   ("C" "dag" "new-tiles" 3)
+   ("D" "ldasg")))
+(*** expected)
+'((("D") ("B" "C" "A")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 10) (partial-score 0))
+

@@ -1,0 +1,123 @@
+(testing /course/cs4500f23/ta/tedium-workdir/github/quirky-armadillos/9/xbaddies)
+(testing /course/cs4500f23/ta/tedium-workdir/testfest-results/9/27/Tests/6-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/27/Tests/6-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f23/ta/tedium-workdir/github/quirky-armadillos/9/../Q/Tests/run_xbaddies.py", line 6, in <module>
+    from Q.Referee.referee import Referee
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/referee.py", line 18, in <module>
+    from Q.Player.player import Player
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Player/player.py", line 4, in <module>
+    from Q.Common.game_state import GameState
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Common/game_state.py", line 17, in <module>
+    from Q.Referee.pair_results import Results
+ImportError: cannot import name 'Results' from 'Q.Referee.pair_results' (/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/pair_results.py)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((map
+           .
+           ((0 (0 #hasheq((color . "red") (shape . "circle"))))
+            (-1 (0 #hasheq((color . "green") (shape . "circle"))))
+            (-2 (0 #hasheq((color . "blue") (shape . "circle"))))
+            (-3 (0 #hasheq((color . "yellow") (shape . "circle"))))
+            (-4 (0 #hasheq((color . "orange") (shape . "circle"))))))
+          (players
+           .
+           (#hasheq((name . "B") (score . 0) (tile* . ()))
+            #hasheq((name . "A") (score . 0) (tile* . ()))))
+          (tile* . ()))
+  (("B" "dag" "setup" 2) ("A" "dag" "setup" 2)))
+(*** expected)
+'((("A" "B") ()))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /course/cs4500f23/ta/tedium-workdir/testfest-results/9/27/Tests/7-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/27/Tests/7-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f23/ta/tedium-workdir/github/quirky-armadillos/9/../Q/Tests/run_xbaddies.py", line 6, in <module>
+    from Q.Referee.referee import Referee
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/referee.py", line 18, in <module>
+    from Q.Player.player import Player
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Player/player.py", line 4, in <module>
+    from Q.Common.game_state import GameState
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Common/game_state.py", line 17, in <module>
+    from Q.Referee.pair_results import Results
+ImportError: cannot import name 'Results' from 'Q.Referee.pair_results' (/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/pair_results.py)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((map
+           .
+           ((0 (0 #hasheq((color . "red") (shape . "circle"))))
+            (-1 (0 #hasheq((color . "green") (shape . "circle"))))
+            (-2 (0 #hasheq((color . "blue") (shape . "circle"))))
+            (-3 (0 #hasheq((color . "yellow") (shape . "circle"))))
+            (-4 (0 #hasheq((color . "orange") (shape . "circle"))))))
+          (players
+           .
+           (#hasheq((name . "A") (score . 0) (tile* . ()))
+            #hasheq((name . "B") (score . 0) (tile* . ()))
+            #hasheq((name . "C") (score . 0) (tile* . ()))
+            #hasheq((name . "D") (score . 50) (tile* . ()))))
+          (tile* . ()))
+  (("A" "dag" "win") ("B" "dag" "win") ("C" "dag" "win") ("D" "dag" "win")))
+(*** expected)
+'((() ("D" "A" "B" "C")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /course/cs4500f23/ta/tedium-workdir/testfest-results/9/27/Tests/8-in.json /course/cs4500f23/ta/tedium-workdir/testfest-results/9/27/Tests/8-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f23/ta/tedium-workdir/github/quirky-armadillos/9/../Q/Tests/run_xbaddies.py", line 6, in <module>
+    from Q.Referee.referee import Referee
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/referee.py", line 18, in <module>
+    from Q.Player.player import Player
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Player/player.py", line 4, in <module>
+    from Q.Common.game_state import GameState
+  File "/home/mballantyne/.local/lib/python3.9/site-packages/Q/Common/game_state.py", line 17, in <module>
+    from Q.Referee.pair_results import Results
+ImportError: cannot import name 'Results' from 'Q.Referee.pair_results' (/home/mballantyne/.local/lib/python3.9/site-packages/Q/Referee/pair_results.py)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((map
+           .
+           ((0
+             (0 #hasheq((color . "red") (shape . "circle")))
+             (1 #hasheq((color . "red") (shape . "star"))))
+            (-1 (0 #hasheq((color . "green") (shape . "circle"))))
+            (-2 (0 #hasheq((color . "blue") (shape . "circle"))))
+            (-3 (0 #hasheq((color . "yellow") (shape . "circle"))))
+            (-4
+             (0 #hasheq((color . "orange") (shape . "circle")))
+             (1 #hasheq((color . "orange") (shape . "star"))))))
+          (players
+           .
+           (#hasheq((name . "A")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "green") (shape . "star"))
+                      #hasheq((color . "blue") (shape . "star"))
+                      #hasheq((color . "yellow") (shape . "star"))
+                      #hasheq((color . "purple") (shape . "diamond")))))
+            #hasheq((name . "B")
+                    (score . 0)
+                    (tile*
+                     .
+                     (#hasheq((color . "green") (shape . "star"))
+                      #hasheq((color . "blue") (shape . "star"))
+                      #hasheq((color . "yellow") (shape . "star"))
+                      #hasheq((color . "purple") (shape . "diamond")))))))
+          (tile* . ()))
+  (("A" "ldasg") ("B" "dag")))
+(*** expected)
+'((("A") ()))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 3) (partial-score 0))
+
